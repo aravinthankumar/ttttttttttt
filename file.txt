@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://googlegmail.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "MZN"
+        },
+        "summary": "Ubdate new content",
+        "description": "Creating of an issue using project keys and issue type names using the REST API",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 201 Created
+Date: Tue, 31 May 2022 04:07:20 GMT
+Content-Type: application/json;charset=UTF-8
+Server: globaledge-envoy
+Timing-Allow-Origin: *
+X-Arequestid: 1c642c6e-dc9b-4adf-a6d0-419a0ca2abd3
+Set-Cookie: atlassian.xsrf.token=2cfd7b83-8a99-40ac-aeb2-9432b6adec1e_f99ae5915fefb86cd81869538eb9385f70c88496_lin; path=/; SameSite=None; Secure
+X-Aaccountid: 6242f27d699649006ae57456
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Envoy-Upstream-Service-Time: 389
+Expect-Ct: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/atlassian-proxy", max-age=86400
+Strict-Transport-Security: max-age=63072000; preload
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: d2109c4326593059
+Report-To: {"group": "endpoint-1", "max_age": 600, "endpoints": [{"url": "https://dj9s4kmieytgz.cloudfront.net"}], "include_subdomains": true}
+Nel: {"report_to": "endpoint-1", "max_age": 600, "include_subdomains": true, "failure_fraction": 0.001}
+Transfer-Encoding: chunked
+
+{
+    "id": "10170",
+    "key": "MZN-118",
+    "self": "https://googlegmail.atlassian.net/rest/api/2/issue/10170"
+}
+Request method:	PUT
+Request URI:	https://googlegmail.atlassian.net/rest/api/2/issue/MZN-118
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "summary": "Ubdate New Summary",
+        "description": "Ubdate new Description"
+    }
+}
+HTTP/1.1 204 No Content
+Date: Tue, 31 May 2022 04:07:21 GMT
+Content-Type: application/json;charset=UTF-8
+Server: globaledge-envoy
+Timing-Allow-Origin: *
+X-Arequestid: d685f9f9-eb8e-477d-b6a5-37b083c224fb
+Set-Cookie: atlassian.xsrf.token=2cfd7b83-8a99-40ac-aeb2-9432b6adec1e_35106dd2849fde4d3d8c21e7d28bfc381bd8bffd_lin; path=/; SameSite=None; Secure
+X-Aaccountid: 6242f27d699649006ae57456
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Envoy-Upstream-Service-Time: 308
+Expect-Ct: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/atlassian-proxy", max-age=86400
+Strict-Transport-Security: max-age=63072000; preload
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 9746e1a3e89eb76b
+Report-To: {"group": "endpoint-1", "max_age": 600, "endpoints": [{"url": "https://dj9s4kmieytgz.cloudfront.net"}], "include_subdomains": true}
+Nel: {"report_to": "endpoint-1", "max_age": 600, "include_subdomains": true, "failure_fraction": 0.001}
+Request method:	DELETE
+Request URI:	https://googlegmail.atlassian.net/rest/api/2/issue/MZN-118
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Tue, 31 May 2022 04:07:23 GMT
+Content-Type: application/json;charset=UTF-8
+Server: globaledge-envoy
+Timing-Allow-Origin: *
+X-Arequestid: bd182b42-908a-4b6c-bdf0-4285a2a679de
+Set-Cookie: atlassian.xsrf.token=2cfd7b83-8a99-40ac-aeb2-9432b6adec1e_4601a9dd924fb370a350e52c982a12e63c53a51b_lin; path=/; SameSite=None; Secure
+X-Aaccountid: 6242f27d699649006ae57456
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Envoy-Upstream-Service-Time: 485
+Expect-Ct: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/atlassian-proxy", max-age=86400
+Strict-Transport-Security: max-age=63072000; preload
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 4801dc3cb346bfae
+Report-To: {"group": "endpoint-1", "max_age": 600, "endpoints": [{"url": "https://dj9s4kmieytgz.cloudfront.net"}], "include_subdomains": true}
+Nel: {"report_to": "endpoint-1", "max_age": 600, "include_subdomains": true, "failure_fraction": 0.001}

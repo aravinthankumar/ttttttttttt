@@ -1,0 +1,42 @@
+Request method:	POST
+Request URI:	https://googlegmail.atlassian.net/rest/api/2/issue/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "project": {
+            "key": "MZN"
+        },
+        "summary": "Ubdate new content",
+        "description": "Creating of an issue using project keys and issue type names using the REST API",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
+HTTP/1.1 401 Unauthorized
+Date: Mon, 30 May 2022 17:04:46 GMT
+Content-Type: text/plain
+Server: globaledge-envoy
+X-Envoy-Upstream-Service-Time: 1
+Expect-Ct: report-uri="https://web-security-reports.services.atlassian.com/expect-ct-report/atlassian-proxy", max-age=86400
+Strict-Transport-Security: max-age=63072000; preload
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: c62045906e74648a
+Report-To: {"group": "endpoint-1", "max_age": 600, "endpoints": [{"url": "https://dj9s4kmieytgz.cloudfront.net"}], "include_subdomains": true}
+Nel: {"report_to": "endpoint-1", "max_age": 600, "include_subdomains": true, "failure_fraction": 0.001}
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+
+Basic authentication with passwords is deprecated.  For more information, see: https://developer.atlassian.com/cloud/confluence/deprecation-notice-basic-auth/
+
